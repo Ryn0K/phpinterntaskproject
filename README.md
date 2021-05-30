@@ -20,7 +20,10 @@ This project is coded on the basis to clear task for internship.
 
 # Project Documentation videos.
 
-1. Basic Project documentation
+1. Basic Project documentation.
 
+[![Tap to play!](https://img.youtube.com/vi/3FnObBa1EvA/0.jpg)](http://www.youtube.com/watch?v=3FnObBa1EvA)
 
 2. Features showing `client-side` and `server-side` validations in project.
+
+[![Tap to play!](https://img.youtube.com/vi/gVHsDijFRoI/0.jpg)](http://www.youtube.com/watch?v=gVHsDijFRoI)
