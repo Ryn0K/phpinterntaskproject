@@ -29,7 +29,7 @@ require_once("includes/db.inc.php");
   <script src="static/jquery/jquery.slim.min.js"></script>
   <script>
   $(document)
-    .ready(function() {
+    .ready(function(){
       $('.ui.form')
         .form({
           fields: {
@@ -58,12 +58,11 @@ require_once("includes/db.inc.php");
                   prompt : 'Your password must be at least 6 characters'
                 }
               ]
-            }
-          }
-        })
-      ;
-    })
-  ;
+            }  
+        }
+        
+    });
+   });
   </script>
 </head>
 <body>
@@ -96,6 +95,9 @@ require_once("includes/db.inc.php");
             else{
               print("<div id='messages' class='ui floating message red'>Invalid username or password.</div>");
             }
+          }
+          else{
+              print("<div id='messages' class='ui floating message red'>Invalid username or password.</div>");
           }
         }
         catch(PDOException $e){
