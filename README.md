@@ -1,6 +1,6 @@
 # INTRODUCTION
 
-This project is coded on the basis to clear task from internship
+This project is coded on the basis to clear task for internship.
 
 # Technologies Used
 
